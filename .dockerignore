@@ -1,0 +1,6 @@
+sample_go_app
+build/
+#go.sum
+.env
+__debug_bin
+.scannerwork

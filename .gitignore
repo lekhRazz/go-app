@@ -1,0 +1,6 @@
+build/*
+.env
+src/logs/*
+.vscode/*
+__debug_bin
+.scannerwork/

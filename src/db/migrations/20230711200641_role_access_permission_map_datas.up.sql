@@ -1,0 +1,30 @@
+BEGIN;
+
+INSERT INTO role_access_permissions_map (uuid, role_id, access_id)
+VALUES 
+(
+  '5e885dfa-2006-11ee-b26b-1760ba4cb6e8',
+  2,
+  1
+),
+(
+  '64602866-2006-11ee-88bc-8304594ae7ee',
+  2,
+  2
+),
+(
+  '7fc27cf8-2006-11ee-85f0-a323e5280681',
+  2,
+  3
+),
+(
+  '87fd5190-2006-11ee-90f3-8b405c4ef480',
+  2,
+  4
+),
+(
+  '903fc31a-2006-11ee-afba-abf04b803703',
+  2,
+  5
+);
+COMMIT;

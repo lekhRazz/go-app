@@ -1,0 +1,33 @@
+BEGIN;
+
+INSERT INTO admins
+  (
+    uuid,
+    first_name,
+    middle_name,
+    last_name,
+    email,
+    gender,
+    phone,
+    country_code,
+    password,
+    suspended,
+    verified,
+    role_id
+  )
+VALUES 
+  (
+    '1a6a42f0-200b-11ee-939e-6b5a0b9c1389',
+    'first_name',
+    'middle_name',
+    'last_name',
+    'superadmin@gmail.com',
+    'MALE',
+    '9840139192',
+    '+977',
+    'password',
+    false,
+    true,
+    1
+  );
+COMMIT;
