@@ -29,6 +29,7 @@ func main() {
 
 	e := echo.New()
 	e.Use(customMiddleware.ServerHeader)
+	e.Use(middleware.RateLimiter(middleware.NewRateLimiterMemoryStore(20)))
 	e.Use(customMiddleware.ExtendCustomContext)
 	e.Use(customMiddleware.SetDebug)
 	e.Use(customMiddleware.SetDBConnection)

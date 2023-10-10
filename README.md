@@ -12,6 +12,8 @@
 3. well and good panic recovery
 4. code quality checked with sonarqube 
 5. incorporates 12 factor app(software) principles
+6. psql custom enum types are introduced
+7. psql trigger function is used to archive deleted data
 
 ## Steps to run this application with docker
 
